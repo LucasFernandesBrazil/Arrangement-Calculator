@@ -6,13 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de arranjo</title>
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <!-- Style sheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
     
+    <header>
+        <h1>Calculadora de Arranjo - Probabilidade</h1>
+    </header>
+
+    <div class="container">
+        <div class="accordion" id="accordion-explanation">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  O que é Arranjo?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion-explanation">
+                <div class="accordion-body">
+                  <p>
+                    <strong>Arranjos</strong> são agrupamentos formados com p elementos de um conjunto de n elementos.
+                    <br><br>
+                    Arranjos são como permutações, trocas de posição entre os elementos. Mas no caso dos arranjos, são escolhidos p elementos para ocupar as posições ordenadas. Os arranjos são um caso particular de permutações, já que p ≤ n.
+                    <br><br>
+                    Por exemplo: os números de três algarismos formados pelos elementos (1, 2, 3 e 4) são: 123, 132, 421, 423, 342, e assim por diante. Cada um desses números é um arranjo diferente dos elementos (1, 2, 3 e 4).
+                    <br><br>
+                    Assim, os arranjos são os agrupamentos nos quais <strong>a ordem de seus elementos faz diferença</strong>. Ou seja, mesmo que os elementos de dois arranjos sejam os mesmos, esses arranjos podem ser diferentes.
+                    <br><br>
+                    Os arranjos podem ser de dois tipos: <strong>simples ou com repetição</strong>. Além desses, também há um caso em que podem ser impostas restrições aos arranjos, <strong>o arranjo condicional</strong>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
