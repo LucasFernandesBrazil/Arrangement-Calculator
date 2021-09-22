@@ -22,30 +22,53 @@
     </header>
 
     <div class="container">
-        <div class="accordion" id="accordion-explanation">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  O que é Arranjo?
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion-explanation">
-                <div class="accordion-body">
-                  <p>
-                    <strong>Arranjos</strong> são agrupamentos formados com p elementos de um conjunto de n elementos.
-                    <br><br>
-                    Arranjos são como permutações, trocas de posição entre os elementos. Mas no caso dos arranjos, são escolhidos p elementos para ocupar as posições ordenadas. Os arranjos são um caso particular de permutações, já que p ≤ n.
-                    <br><br>
-                    Por exemplo: os números de três algarismos formados pelos elementos (1, 2, 3 e 4) são: 123, 132, 421, 423, 342, e assim por diante. Cada um desses números é um arranjo diferente dos elementos (1, 2, 3 e 4).
-                    <br><br>
-                    Assim, os arranjos são os agrupamentos nos quais <strong>a ordem de seus elementos faz diferença</strong>. Ou seja, mesmo que os elementos de dois arranjos sejam os mesmos, esses arranjos podem ser diferentes.
-                    <br><br>
-                    Os arranjos podem ser de dois tipos: <strong>simples ou com repetição</strong>. Além desses, também há um caso em que podem ser impostas restrições aos arranjos, <strong>o arranjo condicional</strong>.
-                  </p>
-                </div>
-              </div>
+
+      <div class="accordion" id="accordionGroup">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              História
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionGroup">
+            <div class="accordion-body">
+              <p>
+                O arranjo está interligado diretamente com análise combinatória e suas funcionalidades, não podemos falar dele sem citá-la.
+                <br><br>
+                A análise combinatória surgiu no século XVII, como um campo a mais no estudo da matemática com regras associadas à contagem. Seu propósito inicial era possibilitar a realização de contagens cada vez mais precisas, no início o estudo sobre jogos envolvendo dados e cartas fez com que as teorias de contagem se desenvolvessem grandemente. Além de possibilitar a construção de grupos e de quantas maneiras algo pode acontecer, a Análise combinatória ajudou até mesmo outras áreas da matemática como a probabilidade e o binômio de Newton. Na análise existem 7 procedimentos principais mas o que vamos falar é do <strong>arranjo</strong>, que é um dos tipos de agrupamentos estudados dentro de <strong>análise combinatória</strong>, onde os agrupamentos são formados com n elementos tomados de <strong>p</strong> em <strong>p</strong>, sabendo-se que <strong>n > p</strong>.
+
+              </p>
             </div>
           </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              Conceito
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionGroup">
+            <div class="accordion-body">
+              <p>
+                A distinção do arranjo para os outros agrupamentos presentes na análise combinatória é que, enquanto na <strong>combinação</strong> a ordem dos elementos não é importante, ao se realizar o arranjo é essencial considerar a ordem desses elementos. Outra divergência é que na <strong>permutação</strong> todos os elementos estão envolvidos no agrupamento, porém no arranjo apenas um conjunto <strong>p</strong> desses elementos serão considerados a partir do universo <strong>n</strong>.
+                <br><br>
+                Um exemplo da aplicação do arranjo é a elaboração de senhas; suponhamos que com os algarismos <strong>1, 3, 5, 6, 7 e 9</strong> você queira montar uma senha de 4 dígitos distintos para o seu cartão de crédito. Portanto, você decide optar pela senha <strong>5193</strong>. Uma outra pessoa, que iria montar uma senha com a mesma estrutura, optou pela senha <strong>9153</strong>. Nesse momento, é possível observar uma característica primordial do arranjo vindo a tona: as senhas <strong>5193</strong> e <strong>9153</strong> possuem exatamente o mesmo agrupamento de elementos, porém elas são distintas entre si devido a ordem que esses elementos são apresentados, pois é um senso comum de que não se acessa o cartão de crédito de uma pessoa apenas digitando todos os algarismos da senha: é necessário que a ordem também esteja correta.
+                <br><br>
+                Já obtido uma conceituação melhor sobre o arranjo e qual é sua característica principal, é importante ter o conhecimento de sua fórmula que permite saber quantos arranjos são possíveis a partir de <strong>n</strong> elementos tomados de <strong>p</strong> em <strong>p</strong>. Essa fórmula se apresenta como a seguinte:
+                <br><br>
+                <img src="../src/img/formula.png">
+                <br><br>
+                Tomando a situação anterior da senha do cartão de crédito, utilizaremos essa fórmula para descobrir a quantidade de senhas possíveis, considerando que <strong>n</strong> seria representado pelo valor <strong>6</strong> (total de algarismos) e que <strong>p</strong> seria representado pelo valor <strong>4</strong> (total de dígitos para montar a senha). Sua resolução seria da seguinte maneira:
+                <br><br>
+                <img src="../src/img/exemplo.png">
+                <br><br>
+                Portanto, conclui-se que para essa situação há <strong>360</strong> arranjos possíveis de senhas, considerando que há possibilidades de agrupamentos com os mesmos elementos em ordens diferentes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <!-- Bootstrap Bundle with Popper -->
