@@ -1,27 +1,27 @@
 @font-face {
     font-family: "Poppins-thin";
-    src: url('.fonts/Poppins-thin') format("opentype");
+    src: url('./fonts/Poppins-Thin.ttf') format("opentype");
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: "Poppins-regular";
-    src: url('.fonts/Poppins-regular') format("opentype");
+    src: url('./fonts/Poppins-regular.ttf') format("opentype");
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: "Poppins-medium";
-    src: url('.fonts/Poppins-medium') format("opentype");
+    src: url('./fonts/Poppins-medium.ttf') format("opentype");
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: "Poppins-medium-italic";
-    src: url('.fonts/Poppins-medium-italic') format("opentype");
+    src: url('./fonts/Poppins-medium-italic.ttf') format("opentype");
     font-style: normal;
     font-display: swap;
 }
@@ -29,7 +29,7 @@
 
 @font-face {
     font-family: "Poppins-bold";
-    src: url('.fonts/Poppins-bold') format("opentype");
+    src: url('./fonts/Poppins-bold.ttf') format("opentype");
     font-style: normal;
     font-display: swap;
 }

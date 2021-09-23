@@ -85,19 +85,18 @@ button.accordion-button {
     }
 
     .field-box input[type=text] {
-        width: 100px;
+        width: 110px;
         padding: 8px 20px;
         box-sizing: border-box;
         border: 2px solid var(--blue3);
         border-radius: 10px;
-        transition: 0.8s;
-        transition: width 0.8s ease-in-out;
+        transition: ease-in-out 0.8s;
         outline: none;
     }
 
         .field-box input[type=text]:focus {
             border: 2px solid var(--green);
-            width: 210px;
+            width: 230px;
         }
 
 .clear-buttom {
