@@ -1,15 +1,22 @@
-var n = document.getElementById("input-n");
+var n = document.getElementById("input-n")
 n.onfocus = function(){
-    n.placeholder = "Digite apenas números";
-};
-n.onblur = function(){
-    n.placeholder = "Digite n";
-};
+    n.placeholder = "Digite apenas números"
+}
 
-var p = document.getElementById("input-p");
+n.onblur = function(){
+    n.placeholder = "Digite n"
+}
+
+var p = document.getElementById("input-p")
 p.onfocus = function(){
-    p.placeholder = "Digite apenas números";
-};
+    p.placeholder = "Digite apenas números"
+}
+
 p.onblur = function(){
-    p.placeholder = "Digite p";
-};
+    p.placeholder = "Digite p"
+}
+
+function clear() {
+    document.getElementById("input-n") = 7
+    alert("teste")
+}

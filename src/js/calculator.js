@@ -8,7 +8,8 @@ function calculator() {
         nF = factorial(n)
         pF = factorial(p)
         a = nF/pF
-        alert("Resultado do arranjo: " + a)
+        //alert("Resultado do arranjo: " + a)
+        document.getElementById('resultado').value = a
     }
 
     else {
