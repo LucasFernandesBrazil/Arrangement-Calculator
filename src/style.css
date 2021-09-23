@@ -2,7 +2,7 @@
 :root {
     --blue1: #2F57A0;
     --blue2: #095AE3;
-    -blue3: #7AA6CB;
+    --blue3: #7AA6CB;
     --orange1: #ff6d00;
     --orange2: #ff7900;
     --orange3: #ff8500;
@@ -18,6 +18,8 @@
     --gray3: #495057;
     --gray4: #6c757d;
     --gray5: #adb5bd;
+    --red: #8a0303;
+    --green: #32CD32;
     --black: #3B373C;
     --white: #FFF;
 }
@@ -66,3 +68,60 @@ button.accordion-button {
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFFFFF'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
         }
 
+.accordion-area {
+    margin: 2em 0;
+}
+
+.field-box {
+    display: flex;
+    vertical-align: middle;
+    margin: 1em 0;
+}
+
+    .field-box h6 {
+        margin: 0;
+        padding-top: 10px;
+        margin-right: 1em;
+    }
+
+    .field-box input[type=text] {
+        width: 100px;
+        padding: 8px 20px;
+        box-sizing: border-box;
+        border: 2px solid var(--blue3);
+        border-radius: 10px;
+        transition: 0.8s;
+        transition: width 0.8s ease-in-out;
+        outline: none;
+    }
+
+        .field-box input[type=text]:focus {
+            border: 2px solid var(--green);
+            width: 210px;
+        }
+
+.clear-buttom {
+    background: var(--red);
+    color: var(--white);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+    .clear-buttom:hover {
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.37);
+    }
+
+.confirm-buttom {
+    background: var(--green);
+    color: var(--white);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+    .confirm-buttom:hover {
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.37);
+    }
