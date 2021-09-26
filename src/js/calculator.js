@@ -5,7 +5,8 @@ function calculator() {
 
     if (n&&p != undefined && n&&p >= 0) {
         if (p >= n) {
-            alert('O valor de "n" precisa ser maior que o valor de "p". Tente novamente!') 
+            document.getElementById("alert").style.background="rgba(255, 0, 0, 0.329)"
+            document.getElementById("alert").innerHTML = "Valores digitados de maneira incorreta, tente novamente!"; 
             return false
         }
         p = n - p
