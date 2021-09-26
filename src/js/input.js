@@ -27,5 +27,5 @@ input.disabled = true;
 document.getElementById("clear-buttom").addEventListener('click', (event) => {
     document.getElementById("input-n").value = ""
     document.getElementById("input-p").value = ""
-
+    document.getElementById("resultado").value = ""
 })
