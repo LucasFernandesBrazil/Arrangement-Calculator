@@ -181,5 +181,5 @@ button.accordion-button {
     color: var(--red);
     text-align: center;
     font-size: 20px;
-    background: rgba(255, 0, 0, 0.329);
+    background: none;
 }

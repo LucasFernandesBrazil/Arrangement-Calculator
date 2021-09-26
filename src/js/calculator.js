@@ -18,6 +18,7 @@ function calculator() {
     }
 
     else {
+        document.getElementById("alert").style.background="rgba(255, 0, 0, 0.329)"
         document.getElementById("alert").innerHTML = "Valores digitados de maneira incorreta, tente novamente!";
     }
 }

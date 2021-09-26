@@ -2,6 +2,7 @@ var n = document.getElementById("input-n")
 n.onfocus = function(){
     n.placeholder = "Digite apenas números"
     document.getElementById("alert").innerHTML = ""
+    document.getElementById("alert").style.background="none"
 }
 
 n.onblur = function(){
@@ -12,6 +13,7 @@ var p = document.getElementById("input-p")
 p.onfocus = function(){
     p.placeholder = "Digite apenas números"
     document.getElementById("alert").innerHTML = ""
+    document.getElementById("alert").style.background="none"
 }
 
 p.onblur = function(){
