@@ -76,9 +76,10 @@ button.accordion-button {
     background: var(--black);
     color: var(--white);
     margin: 4em 0 2em 0;
-    padding: 1em 10em;
+    padding: 1em 5em;
     border-radius: 20px;
 }
+
 
     .field-box {
         display: flex;
@@ -106,6 +107,10 @@ button.accordion-button {
                 border: 2px solid var(--green);
                 width: 230px;
             }
+
+    #input-n {
+        margin-left: 88px;
+    }
 
     #clear-buttom {
         background: var(--red);
