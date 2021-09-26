@@ -13,10 +13,8 @@ function calculator() {
     }
 
     else {
-        alert('Valores digitados de maneira incorreta. Tente novamente!')
+        document.getElementById("alert").innerHTML = "Valores digitados de maneira incorreta, tente novamente!";
     }
-    
-    
 }
 
 function factorial (number) {
