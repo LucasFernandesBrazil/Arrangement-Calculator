@@ -2,9 +2,14 @@ function calculator() {
     var  n = parseFloat(document.getElementById("input-n").value)
     var p = parseFloat(document.getElementById("input-p").value)
     var a, nF = n, pF = p
-    p = n - p
 
-    if (n&&p != undefined) {
+    if (n&&p != undefined && n&&p >= 0) {
+        if (p >= n) {
+            alert('O valor de "n" precisa ser maior que o valor de "p". Tente novamente!') 
+            return false
+        }
+        p = n - p
+
         nF = factorial(n)
         pF = factorial(p)
         a = nF/pF
