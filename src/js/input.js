@@ -22,7 +22,8 @@ var input = document.querySelector("#resultado");
 
 input.disabled = true;
 
-function clear() {
-    document.getElementById("input-n")
-    alert("teste")
-}
+document.getElementById("clear-buttom").addEventListener('click', (event) => {
+    document.getElementById("input-n").value = ""
+    document.getElementById("input-p").value = ""
+
+})
