@@ -6,7 +6,7 @@ function calculator() {
     if (n&&p != undefined && n&&p >= 0) {
         if (p >= n) {
             document.getElementById("alert").style.background="rgba(255, 0, 0, 0.329)"
-            document.getElementById("alert").innerHTML = "Valores digitados de maneira incorreta, tente novamente!"; 
+            document.getElementById("alert").innerHTML = "Valores digitados de maneira incorreta, tente novamente!!" 
             return false
         }
         p = n - p
@@ -14,13 +14,12 @@ function calculator() {
         nF = factorial(n)
         pF = factorial(p)
         a = nF/pF
-        //alert("Resultado do arranjo: " + a)
         document.getElementById('resultado').value = a
     }
 
     else {
         document.getElementById("alert").style.background="rgba(255, 0, 0, 0.329)"
-        document.getElementById("alert").innerHTML = "Valores digitados de maneira incorreta, tente novamente!";
+        document.getElementById("alert").innerHTML = "Valores digitados de maneira incorreta, tente novamente!"
     }
 }
 
