@@ -107,7 +107,7 @@ button.accordion-button {
                 width: 230px;
             }
 
-    .clear-buttom {
+    #clear-buttom {
         background: var(--red);
         color: var(--white);
         padding: 5px 10px;
@@ -116,7 +116,7 @@ button.accordion-button {
         transition: 0.2s;
     }
 
-        .clear-buttom:hover {
+        #clear-buttom:hover {
             box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.37);
         }
 
