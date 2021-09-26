@@ -144,6 +144,9 @@ button.accordion-button {
     }
 
         .resultado-box input[type=text]{
+            background: var(--white);
+            color: var(--green);
+            padding: 5px 10px;
             outline: none;
             border: 2px solid var(--blue3);
             border-radius: 10px;
