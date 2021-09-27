@@ -11,7 +11,7 @@
 <br>
 
 ## Foto do projeto
-![image](https://user-images.githubusercontent.com/62476878/134946558-e0f8f9fa-8563-49e3-810c-4e89eb7f94ea.png)
+![image](https://user-images.githubusercontent.com/62476878/134968460-2f91dab7-3e5f-4f3b-885d-3f327e0f0d23.png)
 <br><br>
 
 ## Lógica para realizar os cálculos
