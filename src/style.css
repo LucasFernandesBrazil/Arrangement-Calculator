@@ -24,15 +24,18 @@
     --white: #FFF;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 html, body {
     margin: 0;
     padding: 0;
     background: #dee2e6;
-    font-family:'Poppins-regular', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Poppins', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    font-family: 'Poppins-bold', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
 }
 
 
@@ -171,7 +174,7 @@ button.accordion-button {
     }
 
         .image-box h5 {
-            font-family: Poppins-medium, Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
             font-size: 22px;
             margin-top: 0.5em;
         }
