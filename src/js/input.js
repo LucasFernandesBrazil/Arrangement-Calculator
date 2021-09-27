@@ -16,6 +16,10 @@ p.onblur = function(){
     p.placeholder = "Digite p"
 }
 
+var input = document.querySelector("#resultado");
+
+input.disabled = true;
+
 function clear() {
     document.getElementById("input-n") = 7
     alert("teste")
