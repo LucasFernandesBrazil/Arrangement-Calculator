@@ -100,8 +100,8 @@ button.accordion-button {
             margin-right: 1em;
         }
 
-        .field-box input[type=text] {
-            width: 110px;
+        .field-box input[type=number] {
+            width: 130px;
             padding: 8px 20px;
             box-sizing: border-box;
             border: 2px solid var(--blue3);
@@ -110,9 +110,13 @@ button.accordion-button {
             outline: none;
         }
 
-            .field-box input[type=text]:focus {
+            .field-box input[type=number]:focus {
                 border: 2px solid var(--green);
-                width: 230px;
+                width: 260px;
+            }
+
+            .field-box input:out-of-range {
+                border-color: var(--red);
             }
 
     #input-n {
