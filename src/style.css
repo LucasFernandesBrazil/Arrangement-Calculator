@@ -41,6 +41,10 @@ h1 {
 
 /* =-=-=-=-=-=-=  Web configuration  =-=-=-=-=-=-= */
 
+header, .container {
+    min-width: 935px;
+}
+
 header {
     display: block;
     width: 100%;
@@ -112,7 +116,7 @@ button.accordion-button {
             }
 
     #input-n {
-        margin-left: 88px;
+        margin-left: 4.55em;
     }
 
     #clear-buttom {
