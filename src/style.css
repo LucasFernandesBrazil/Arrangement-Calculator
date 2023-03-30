@@ -41,9 +41,6 @@ h1 {
 
 /* =-=-=-=-=-=-=  Web configuration  =-=-=-=-=-=-= */
 
-header, .container {
-    min-width: 935px;
-}
 
 header {
     display: block;

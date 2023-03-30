@@ -26,10 +26,17 @@
 
         <div id="alert" class="alert"></div>
         <div class="row" id="calculator">
-            <div class="col-8">
+            <div class="col-12 col-lg-8">
+              <label for="basic-url">Your vanity URL</label>
+              <div class="input-group mb-3">
+                <input aria-describedby="basic-addon3" class="form-control" id="input-n basic-url" value="" name="n" type="number" placeholder="Valor n" min="1" max="1000">
+              </div>
                 <div class="field-box">
-                    <h6>Informe o conjunto inicial <strong>n</strong>: </h6>
-                    <input id="input-n" value="" name="n" type="number" placeholder="Valor n" min="1" max="1000">
+                    <label for="basic-url">
+                      Informe o conjunto inicial n: </label>
+<!--                     <h6>Informe o conjunto inicial <strong>n</strong>: </h6> -->
+                    <!-- <input id="input-n" value="" name="n" type="number" placeholder="Valor n" min="1" max="1000"> -->
+                    <input aria-describedby="basic-addon3" class="form-control" id="input-n basic-url" value="" name="n" type="number" placeholder="Valor n" min="1" max="1000">
                 </div>
                 <div class="field-box">
                     <h6>Informe a quantidade de elementos <strong>p</strong>: </h6>
@@ -38,7 +45,7 @@
                 <button id="clear-buttom">Limpar</button>
                 <input onclick="calculator()" class="confirm-buttom" type="submit" value="Calcular">
             </div>
-            <div class="col-4">
+            <div class="col-12 col-lg-4">
                 <div class="resultado-box">
                     <h6>Resultado:</h6>
                     <input type="text" id="resultado">
@@ -48,7 +55,7 @@
 
 
         <div class="accordion row accordion-area" id="accordionExample">
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -66,7 +73,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -102,8 +109,8 @@
                     <h1>Autores do projeto</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-4 image-box">
+            <div class="row gy-5">
+                <div class="col-12 col-lg-4 image-box">
                   <img src="./src/img/Lucas.png" width="200px">
                   <h5>Lucas Fernandes</h5>
                   <a href="https://www.linkedin.com/in/lucasfernandesprogrammer/" target="_blank" class="authors-link linkedin">
@@ -113,7 +120,7 @@
                     <img src="./src/img/github.png">
                   </a>
                 </div>
-                <div class="col-4 image-box">
+                <div class="col-12 col-lg-4 image-box">
                   <img src="./src/img/Matheus Patrick.png" width="200px">
                   <h5>Matheus Patrick</h5>
                   <a href="https://www.linkedin.com/in/mpatrickaires/" target="_blank" class="authors-link linkedin">
@@ -123,7 +130,7 @@
                     <img src="./src/img/github.png">
                   </a>
                 </div>
-                <div class="col-4 image-box">
+                <div class="col-12 col-lg-4 image-box">
                   <img src="./src/img/Matheus Henrique.png" width="200px">
                   <h5>Matheus Henrique</h5>
                   <a href="https://www.linkedin.com/in/matheus-henrique-soares-moreno-2bb974205/" target="_blank" class="authors-link linkedin">
