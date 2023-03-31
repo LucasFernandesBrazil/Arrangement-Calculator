@@ -84,46 +84,38 @@ button.accordion-button {
     border-radius: 20px;
 }
 
+.field-box {
+    margin: 2em 0;
+}
 
-    .field-box {
-        display: flex;
-        vertical-align: middle;
-        margin: 1em 0;
+.field-box h6 {
+    margin: 0;
+}
+
+.field-box input[type=number] {
+    width: 130px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    border: 2px solid var(--blue3);
+    border-radius: 10px;
+    transition: ease-in-out 0.8s;
+    outline: none;
+}
+
+    .field-box input[type=number]:focus {
+        border: 2px solid var(--green);
+        width: 260px;
     }
 
-        .field-box h6 {
-            margin: 0;
-            padding-top: 10px;
-            margin-right: 1em;
-        }
-
-        .field-box input[type=number] {
-            width: 130px;
-            padding: 8px 20px;
-            box-sizing: border-box;
-            border: 2px solid var(--blue3);
-            border-radius: 10px;
-            transition: ease-in-out 0.8s;
-            outline: none;
-        }
-
-            .field-box input[type=number]:focus {
-                border: 2px solid var(--green);
-                width: 260px;
-            }
-
-            .field-box input:out-of-range {
-                border-color: var(--red);
-            }
-
-    #input-n {
-        margin-left: 4.55em;
+    .field-box input:out-of-range {
+        border-color: var(--red);
     }
 
     #clear-buttom {
         background: var(--red);
         color: var(--white);
-        padding: 5px 10px;
+        padding: 10px 20px;
+        margin-right: 0.5em;
         border: none;
         border-radius: 10px;
         transition: 0.2s;
@@ -136,7 +128,7 @@ button.accordion-button {
     .confirm-buttom {
         background: var(--green);
         color: var(--white);
-        padding: 5px 10px;
+        padding: 10px 20px;
         border: none;
         border-radius: 10px;
         transition: 0.2s;
@@ -147,15 +139,17 @@ button.accordion-button {
         }
 
     .resultado-box {
-        text-align: center;
-        margin-top: 2.3em;
+        height: 100%; 
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
         .resultado-box input[type=text]{
             background: var(--white);
             color: var(--green);
             padding: 5px 10px;
-            outline: none;
             border: 2px solid var(--blue3);
             border-radius: 10px;
             width: 310px;
@@ -219,4 +213,22 @@ button.accordion-button {
     text-align: center;
     font-size: 20px;
     background: none;
+}
+
+@media (max-width: 991px) {
+    .field-box {
+        text-align: center;
+    }
+}
+
+@media (max-width: 427px) {
+
+    #calculator {
+        padding: 1em 2em;
+    }
+
+    .resultado-box input[type=text]{
+        width: 200px;
+    }
+
 }

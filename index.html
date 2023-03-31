@@ -27,23 +27,18 @@
         <div id="alert" class="alert"></div>
         <div class="row" id="calculator">
             <div class="col-12 col-lg-8">
-              <label for="basic-url">Your vanity URL</label>
-              <div class="input-group mb-3">
-                <input aria-describedby="basic-addon3" class="form-control" id="input-n basic-url" value="" name="n" type="number" placeholder="Valor n" min="1" max="1000">
-              </div>
                 <div class="field-box">
-                    <label for="basic-url">
-                      Informe o conjunto inicial n: </label>
-<!--                     <h6>Informe o conjunto inicial <strong>n</strong>: </h6> -->
-                    <!-- <input id="input-n" value="" name="n" type="number" placeholder="Valor n" min="1" max="1000"> -->
-                    <input aria-describedby="basic-addon3" class="form-control" id="input-n basic-url" value="" name="n" type="number" placeholder="Valor n" min="1" max="1000">
+                  <h6>Informe o conjunto inicial <strong>n</strong>: </h6>
+                  <input id="input-n" value="" name="n" type="number" placeholder="Valor n" min="1" max="1000"> 
                 </div>
                 <div class="field-box">
                     <h6>Informe a quantidade de elementos <strong>p</strong>: </h6>
                     <input id="input-p" value="" name="p" type="number" placeholder="Valor p" min="1" max="1000">
                 </div>
-                <button id="clear-buttom">Limpar</button>
-                <input onclick="calculator()" class="confirm-buttom" type="submit" value="Calcular">
+                <div class="field-box">
+                  <button id="clear-buttom">Limpar</button>
+                  <input onclick="calculator()" class="confirm-buttom" type="submit" value="Calcular">
+                </div>
             </div>
             <div class="col-12 col-lg-4">
                 <div class="resultado-box">
@@ -93,7 +88,7 @@
                               <br><br>
                               Tomando a situação anterior da senha do cartão de crédito, utilizaremos essa fórmula para descobrir a quantidade de senhas possíveis, considerando que <strong>n</strong> seria representado pelo valor <strong>6</strong> (total de algarismos) e que <strong>p</strong> seria representado pelo valor <strong>4</strong> (total de dígitos para montar a senha). Sua resolução seria da seguinte maneira:
                               <br><br>
-                              <img src="./src/img/exemplo.png">
+                              <img src="./src/img/exemplo.png" width="90%">
                               <br><br>
                               Portanto, conclui-se que para essa situação há <strong>360</strong> arranjos possíveis de senhas, considerando que há possibilidades de agrupamentos com os mesmos elementos em ordens diferentes.
                           </p>
